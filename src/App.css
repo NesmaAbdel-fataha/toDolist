@@ -1,38 +1,86 @@
-.App {
+body{
+background-image: url(/imges/back.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.new-item-form{
+  
+}
+.form-low{
+  margin: auto;
+  width: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 60%;
+}
+.form-low label{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.form-low input{
+  display: block;
+  background-color: pink;
+  border: 2px solid rgb(255, 0, 140);
+  padding: 10px;
+  border-radius: 6px;
+  width: 60%;
+  outline: 0;
+  
+}
+.btn{
+  padding: 10px;
+  border-radius: 6px;
+  width: 62%;
+  font-size: 15px;
+ margin-top: 20px;
+}
+.btn:hover{
+  background-color: pink;
+}
+h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list{
+  width: 80%;
+  
+  margin: auto;
+ 
 }
+/* .list:has(.todo-checkbox:checked){
+  color: #5555;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  order: 1;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+li{
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+
+
+}
+input[type=checkbox]{
+  accent-color: rgb(255, 0, 140);
+  mix-blend-mode: multiply;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-delete{
+  margin-bottom: 10px;
+  background-color: pink;
+  border: 2px solid red;
+  color: red;
+  margin-left: 5px;
+ 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4{
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(189, 15, 15);
+  font-size: 20px;
 }
